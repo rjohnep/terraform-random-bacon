@@ -1,5 +1,5 @@
 resource "random_pet" "server" {
   keepers = {
-    version = "56"
+    version = "57"
   }
 }
