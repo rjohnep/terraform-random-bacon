@@ -1,5 +1,5 @@
 variable "version" {
-  default = 1
+  default = 2
 }
 
 resource "random_pet" "server" {
