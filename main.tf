@@ -4,11 +4,11 @@ resource "random_pet" "server" {
   }
 }
 
-resource "spacelift_environment_variable" "kaboom" {
+resource "local_file" "foo" {
   name       = "BACON"
 }
 
-resource "spacelift_environment_variable_a" "kaboom" {
+resource "local_file" "kaboom" {
   name       = "BACON2"
 }
 
