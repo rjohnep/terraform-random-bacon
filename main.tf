@@ -4,7 +4,7 @@ resource "random_pet" "server" {
   }
 }
 
-resource "random_pet" "server" {
+resource "random_pet1" "server" {
   keepers = {
     version = "1"
   }
