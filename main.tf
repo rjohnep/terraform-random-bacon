@@ -1,5 +1,5 @@
 module "context" {
-  count = 50
+  count = 10
 
   source = "./context"
   number = count.index
