@@ -5,10 +5,12 @@ resource "random_pet" "server" {
 }
 
 resource "local_file" "foo" {
-  name       = "BACON"
+  content  = "foo!"
+  filename = "foo1"
 }
 
 resource "local_file" "kaboom" {
-  name       = "BACON2"
+  content  = "foo!"
+  filename = "foo1"
 }
 
